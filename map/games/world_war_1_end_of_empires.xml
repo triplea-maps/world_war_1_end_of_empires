@@ -293,6 +293,7 @@
                 <connection t1="Vienna" t2="Dalmatia"/>
                 <connection t1="Belgrade" t2="Romania"/>
 				<connection t1="Serbia" t2="Belgrade"/>
+				<connection t1="Serbia" t2="Bulgaria"/>
                 <connection t1="Belgrade" t2="Dalmatia"/>
                 <connection t1="Belgrade" t2="Montenegro"/>
 				<connection t1="Belgrade" t2="Hungary"/>
