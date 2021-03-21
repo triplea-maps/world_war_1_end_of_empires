@@ -1369,7 +1369,7 @@
                         <territoryOwner territory="Prussia" owner="Germany"/>
                         <territoryOwner territory="Lithuania" owner="Germany"/>
                         <territoryOwner territory="Alsace" owner="Germany"/>
-                        <territoryOwner territory="Portugal" owner="France"/>
+                        <territoryOwner territory="Portugal" owner="Britain"/>
                         <territoryOwner territory="Morocco" owner="France"/>
                         <territoryOwner territory="Lorraine" owner="France"/>
                         <territoryOwner territory="Picardy" owner="France"/>
@@ -1710,11 +1710,11 @@
                 </unitInitialize>
                 <resourceInitialize>
                         <resourceGiven player="Germany" resource="PUs" quantity="31"/>
-                        <resourceGiven player="France" resource="PUs" quantity="16"/>
+                        <resourceGiven player="France" resource="PUs" quantity="15"/>
 						<resourceGiven player="Austria-Hungary" resource="PUs" quantity="12"/>
 						<resourceGiven player="Ottoman_Empire" resource="PUs" quantity="3"/>
                         <resourceGiven player="Russia" resource="PUs" quantity="22"/>
-                        <resourceGiven player="Britain" resource="PUs" quantity="28"/>
+                        <resourceGiven player="Britain" resource="PUs" quantity="29"/>
                         <resourceGiven player="Italy" resource="PUs" quantity="11"/>
                         <resourceGiven player="United_States" resource="PUs" quantity="50"/>
                 </resourceInitialize>
@@ -1954,7 +1954,7 @@ Russian Revolution Code:<br>
 		The Central Powers may move their troops back through Russian territory.<br>
 		This event frees up German troops to focus on the Western Front.<br>
 <br>
-Nations:<br>
+Countries:<br>
 <br>
 	Entente:<br>
 		France<br>
