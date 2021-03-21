@@ -146,6 +146,7 @@
                 <connection t1="Silesia" t2="Galicia"/>
                 <connection t1="Belgium" t2="Ruhr"/>
                 <connection t1="Belgium" t2="Holland"/>
+				<connection t1="Belgium" t2="Alsace"/>
                 <connection t1="Hanover" t2="Saxony"/>
                 <connection t1="Hanover" t2="Ruhr"/>
                 <connection t1="Hanover" t2="Berlin"/>
