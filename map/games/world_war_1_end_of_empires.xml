@@ -1291,6 +1291,7 @@
 						<option name="changeOwnership" value="Kiev:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Kharkov:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Crimea:Russia:Germany:false"/>
+						<option name="changeOwnership" value="Belarus:Russia:Germany:false"/>
 						
 						<option name="changeOwnership" value="Tyrol:Russia:Austria-Hungary:false"/>
 						<option name="changeOwnership" value="Vienna:Russia:Austria-Hungary:false"/>
@@ -1332,7 +1333,6 @@
 						<option name="changeOwnership" value="Pskov:any:Neutrals:false"/>
 						<option name="changeOwnership" value="Smolensk:any:Neutrals:false"/>
 						<option name="changeOwnership" value="Kursk:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Belarus:any:Neutrals:false"/>
 						
 						<option name="when" value="after:endRoundStep"/>
 					</attachment>
