@@ -1433,10 +1433,10 @@
                         <territoryOwner territory="Egypt" owner="Britain"/>
                         <territoryOwner territory="Malta" owner="Britain"/>
                         <territoryOwner territory="Ireland" owner="Britain"/>
-                        <territoryOwner territory="Greece" owner="Italy"/>
+                        <territoryOwner territory="Greece" owner="France"/>
                         <territoryOwner territory="Tuscany" owner="Italy"/>
                         <territoryOwner territory="Veneto" owner="Italy"/>
-                        <territoryOwner territory="Crete" owner="Italy"/>
+                        <territoryOwner territory="Crete" owner="France"/>
                         <territoryOwner territory="Libya" owner="Italy"/>
                         <territoryOwner territory="Sardinia" owner="Italy"/>
                         <territoryOwner territory="Sicily" owner="Italy"/>
@@ -1662,14 +1662,18 @@
                         <unitPlacement unitType="artillery" territory="Ireland" quantity="1" owner="Britain"/>
                         <unitPlacement unitType="factory" territory="Ireland" quantity="1" owner="Britain"/>
                         <unitPlacement unitType="infantry" territory="Ireland" quantity="3" owner="Britain"/>
-                        <unitPlacement unitType="artillery" territory="Greece" quantity="1" owner="Italy"/>
-                        <unitPlacement unitType="infantry" territory="Greece" quantity="5" owner="Italy"/>
+                        <unitPlacement unitType="artillery" territory="Greece" quantity="1" owner="France"/>
+                        <unitPlacement unitType="infantry" territory="Greece" quantity="2" owner="France"/>
+						<unitPlacement unitType="artillery" territory="Greece" quantity="1" owner="Britain"/>
+                        <unitPlacement unitType="infantry" territory="Greece" quantity="2" owner="Britain"/>
+						<unitPlacement unitType="artillery" territory="Greece" quantity="1" owner="Italy"/>
+                        <unitPlacement unitType="infantry" territory="Greece" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="artillery" territory="Tuscany" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="infantry" territory="Tuscany" quantity="5" owner="Italy"/>
                         <unitPlacement unitType="artillery" territory="Veneto" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="fighter" territory="Veneto" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="infantry" territory="Veneto" quantity="5" owner="Italy"/>
-                        <unitPlacement unitType="infantry" territory="Crete" quantity="1" owner="Italy"/>
+                        <unitPlacement unitType="infantry" territory="Crete" quantity="1" owner="France"/>
                         <unitPlacement unitType="artillery" territory="Libya" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="infantry" territory="Libya" quantity="1" owner="Italy"/>
                         <unitPlacement unitType="infantry" territory="Sardinia" quantity="1" owner="Italy"/>
@@ -1711,12 +1715,12 @@
                 </unitInitialize>
                 <resourceInitialize>
                         <resourceGiven player="Germany" resource="PUs" quantity="31"/>
-                        <resourceGiven player="France" resource="PUs" quantity="15"/>
+                        <resourceGiven player="France" resource="PUs" quantity="16"/>
 						<resourceGiven player="Austria-Hungary" resource="PUs" quantity="12"/>
 						<resourceGiven player="Ottoman_Empire" resource="PUs" quantity="3"/>
                         <resourceGiven player="Russia" resource="PUs" quantity="22"/>
                         <resourceGiven player="Britain" resource="PUs" quantity="29"/>
-                        <resourceGiven player="Italy" resource="PUs" quantity="11"/>
+                        <resourceGiven player="Italy" resource="PUs" quantity="10"/>
                         <resourceGiven player="United_States" resource="PUs" quantity="50"/>
                 </resourceInitialize>
 				<relationshipInitialize>
