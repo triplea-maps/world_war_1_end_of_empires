@@ -779,6 +779,7 @@
                          <option name="attack" value="3"/>
                          <option name="defense" value="2"/>
                          <option name="transportCost" value="5"/>
+						 <option name="artillerySupportable" value="true"/>
                     </attachment>
                     <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="1"/>
@@ -828,6 +829,16 @@
                          <option name="carrierCost" value="1"/>
                          <option name="isAir" value="true"/>
                     </attachment>
+					<attachment name="supportAttachmentAerialReconnaissance" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+						<option name="unitType" value="artillery"/>
+						<option name="faction" value="allied"/>
+						<option name="side" value="offence:defence"/>
+						<option name="dice" value="strength"/>
+						<option name="bonus" value="1"/>
+						<option name="number" value="1000"/>
+						<option name="bonusType" value="AerialReconnaissance"/>
+						<option name="players" value="Germany:France:Austria-Hungary:Ottoman_Empire:Russia:Britain:Italy:United_States"/>
+					</attachment>
                     <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="1"/>
                          <option name="attack" value="1"/>
@@ -837,7 +848,6 @@
                          <option name="isInfantry" value="true"/>
                          <option name="isParatroop" value="false"/>
                          <option name="isMechanized" value="false"/>
-                         <option name="artillerySupportable" value="true"/>
                     </attachment>
                     <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="2"/>
