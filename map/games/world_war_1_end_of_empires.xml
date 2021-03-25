@@ -1511,7 +1511,7 @@
                         <unitPlacement unitType="artillery" territory="Alsace" quantity="3" owner="Germany"/>
                         <unitPlacement unitType="fighter" territory="Alsace" quantity="1" owner="Germany"/>
                         <unitPlacement unitType="infantry" territory="Alsace" quantity="7" owner="Germany"/>
-                        <unitPlacement unitType="infantry" territory="Portugal" quantity="1" owner="France"/>
+                        <unitPlacement unitType="infantry" territory="Portugal" quantity="1" owner="Britain"/>
                         <unitPlacement unitType="infantry" territory="Morocco" quantity="1" owner="France"/>
                         <unitPlacement unitType="artillery" territory="Lorraine" quantity="2" owner="France"/>
                         <unitPlacement unitType="fighter" territory="Lorraine" quantity="1" owner="France"/>
