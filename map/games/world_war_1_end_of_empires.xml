@@ -61,7 +61,7 @@
                 <territory name="Albania"/>
                 <territory name="Tyrol"/>
                 <territory name="Vienna"/>
-                <territory name="Serbia"/>
+                <territory name="North Macedonia"/>
 				<territory name="Belgrade"/>
                 <territory name="Romania"/>
                 <territory name="Galicia"/>
@@ -277,7 +277,7 @@
                 <connection t1="Novgorod" t2="Archangel"/>
                 <connection t1="Bulgaria" t2="Aegean Sea Zone"/>
                 <connection t1="Bulgaria" t2="South Black Sea Zone"/>
-                <connection t1="Bulgaria" t2="Serbia"/>
+                <connection t1="Bulgaria" t2="North Macedonia"/>
                 <connection t1="Bulgaria" t2="Romania"/>
                 <connection t1="Bohemia" t2="Hungary"/>
                 <connection t1="Bohemia" t2="Vienna"/>
@@ -287,13 +287,13 @@
                 <connection t1="Hungary" t2="Romania"/>
                 <connection t1="Hungary" t2="Galicia"/>
                 <connection t1="Hungary" t2="Dalmatia"/>
-                <connection t1="Albania" t2="Serbia"/>
+                <connection t1="Albania" t2="North Macedonia"/>
                 <connection t1="Albania" t2="Montenegro"/>
                 <connection t1="Tyrol" t2="Vienna"/>
                 <connection t1="Tyrol" t2="Dalmatia"/>
                 <connection t1="Vienna" t2="Dalmatia"/>
                 <connection t1="Belgrade" t2="Romania"/>
-				<connection t1="Serbia" t2="Belgrade"/>
+				<connection t1="North Macedonia" t2="Belgrade"/>
 				<connection t1="Belgrade" t2="Bulgaria"/>
                 <connection t1="Belgrade" t2="Dalmatia"/>
                 <connection t1="Belgrade" t2="Montenegro"/>
@@ -325,7 +325,7 @@
                 <connection t1="Greece" t2="Aegean Sea Zone"/>
                 <connection t1="Greece" t2="Central Mediterranean Sea Zone"/>
                 <connection t1="Greece" t2="Albania"/>
-                <connection t1="Greece" t2="Serbia"/>
+                <connection t1="Greece" t2="North Macedonia"/>
                 <connection t1="Tuscany" t2="Adriatic Sea Zone"/>
                 <connection t1="Tuscany" t2="Veneto"/>
                 <connection t1="Tuscany" t2="Rome"/>
@@ -1047,7 +1047,7 @@
                         <option name="capital" value="Austria-Hungary"/>
 						<option name="originalFactory" value="true"/>
                    </attachment>
-                    <attachment name="territoryAttachment" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                    <attachment name="territoryAttachment" attachTo="North Macedonia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
                         <option name="production" value="0"/>
                    </attachment>
 				   <attachment name="territoryAttachment" attachTo="Belgrade" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1277,7 +1277,7 @@
 						<option name="changeOwnership" value="Berlin:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Silesia:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Prussia:Russia:Germany:false"/>
-						<option name="changeOwnership" value="Serbia:Russia:Germany:false"/>
+						<option name="changeOwnership" value="North Macedonia:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Bulgaria:Russia:Germany:false"/>
 						<option name="changeOwnership" value="Jutland Sea Zone:Russia:Germany:false"/>
 						<option name="changeOwnership" value="South Baltic Sea Zone:Russia:Germany:false"/>
@@ -1415,7 +1415,7 @@
                         <territoryOwner territory="Tyrol" owner="Austria-Hungary"/>
                         <territoryOwner territory="Vienna" owner="Austria-Hungary"/>
 						<territoryOwner territory="Belgrade" owner="Austria-Hungary"/>
-                        <territoryOwner territory="Serbia" owner="Germany"/>
+                        <territoryOwner territory="North Macedonia" owner="Germany"/>
                         <territoryOwner territory="Romania" owner="Austria-Hungary"/>
                         <territoryOwner territory="Galicia" owner="Austria-Hungary"/>
                         <territoryOwner territory="Dalmatia" owner="Austria-Hungary"/>
@@ -1595,7 +1595,7 @@
                         <unitPlacement unitType="infantry" territory="Bulgaria" quantity="5" owner="Germany"/>
 						<unitPlacement unitType="factory" territory="Bulgaria" quantity="1" owner="Germany"/>
 						<unitPlacement unitType="aaGun" territory="Bulgaria" quantity="1" owner="Germany"/>
-						<unitPlacement unitType="infantry" territory="Serbia" quantity="1" owner="Germany"/>
+						<unitPlacement unitType="infantry" territory="North Macedonia" quantity="1" owner="Germany"/>
 						<unitPlacement unitType="infantry" territory="Albania" quantity="1" owner="Austria-Hungary"/>
 						<unitPlacement unitType="infantry" territory="Belgrade" quantity="1" owner="Austria-Hungary"/>
                         <unitPlacement unitType="infantry" territory="Bohemia" quantity="2" owner="Austria-Hungary"/>
