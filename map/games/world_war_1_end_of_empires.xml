@@ -471,6 +471,8 @@
                 <player name="Italy" optional="false"/>
                 <player name="United_States" optional="false"/>
 				<player name="Neutrals" optional="true" isHidden="true"/>
+				<player name="No-One" optional="true" isHidden="true"/>
+				<player name="Soviet_Russia" optional="true" isHidden="true"/>
 				
                 <alliance player="Germany" alliance="Central Powers"/>
                 <alliance player="France" alliance="Entente"/>
@@ -1458,6 +1460,17 @@
 						<option name="changeOwnership" value="Pskov:any:Neutrals:false"/>
 						<option name="changeOwnership" value="Smolensk:any:Neutrals:false"/>
 						<option name="changeOwnership" value="Kursk:any:Neutrals:false"/>
+						
+						<option name="territories" value="Petrograd"/>
+						<option name="territoryProperty" value="capital" count="No-One"/>
+						
+						<option name="when" value="after:endRoundStep"/>
+					</attachment>
+					<attachment name="triggerAttachmentCapitalMovedToMoscow" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+						<option name="trigger" value="conditionAttachmentRussianRevolution"/>
+						
+						<option name="territories" value="Moscow"/>
+						<option name="territoryProperty" value="capital" count="Soviet_Russia"/>
 						
 						<option name="when" value="after:endRoundStep"/>
 					</attachment>
