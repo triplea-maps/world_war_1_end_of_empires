@@ -466,12 +466,10 @@
                 <player name="France" optional="false"/>
 				<player name="Austria-Hungary" optional="false"/>
 				<player name="Ottoman_Empire" optional="false"/>
-                <player name="Russia" optional="false"/>
+                <player name="Russia" optional="true"/>
                 <player name="Britain" optional="false"/>
                 <player name="Italy" optional="false"/>
                 <player name="United_States" optional="false"/>
-				<player name="Neutrals" optional="true" isHidden="true"/>
-				<player name="No-One" optional="true" isHidden="true"/>
 				<player name="Soviet_Russia" optional="true" isHidden="true"/>
 				
                 <alliance player="Germany" alliance="Central Powers"/>
@@ -1444,25 +1442,25 @@
 						
 						<option name="changeOwnership" value="Persia:Russia:Ottoman_Empire:false"/>
 						
-						<option name="changeOwnership" value="Karelia:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Petrograd:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Archangel:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Novgorod:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Tobolsk:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Vologda:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Moscow:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Perm:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Nizhny Novgorod:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Samara:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Astrakhan:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Gov. of the Don Army:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Caucasus:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Pskov:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Smolensk:any:Neutrals:false"/>
-						<option name="changeOwnership" value="Kursk:any:Neutrals:false"/>
+						<option name="changeOwnership" value="Karelia:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Petrograd:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Archangel:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Novgorod:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Tobolsk:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Vologda:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Moscow:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Perm:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Nizhny Novgorod:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Samara:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Astrakhan:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Gov. of the Don Army:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Caucasus:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Pskov:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Smolensk:any:Soviet_Russia:false"/>
+						<option name="changeOwnership" value="Kursk:any:Soviet_Russia:false"/>
 						
 						<option name="territories" value="Petrograd"/>
-						<option name="territoryProperty" value="capital" count="No-One"/>
+						<option name="territoryProperty" value="capital" count="-reset-"/>
 						
 						<option name="when" value="after:endRoundStep"/>
 					</attachment>
@@ -1890,14 +1888,14 @@
 						<relationship type="War" player1="Italy" player2="Ottoman_Empire" roundValue="1"/>
 						<relationship type="War" player1="Russia" player2="Ottoman_Empire" roundValue="1"/>
 						<relationship type="War" player1="United_States" player2="Ottoman_Empire" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Germany" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="France" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Austria-Hungary" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Russia" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Ottoman_Empire" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Britain" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="Italy" roundValue="1"/>
-						<relationship type="Neutrality" player1="Neutrals" player2="United_States" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Germany" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="France" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Austria-Hungary" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Russia" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Ottoman_Empire" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Britain" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="Italy" roundValue="1"/>
+						<relationship type="Neutrality" player1="Soviet_Russia" player2="United_States" roundValue="1"/>
 				</relationshipInitialize>
         </initialize>
         <propertyList>
@@ -2035,10 +2033,10 @@
                         <boolean/>
                 </property>
                 <property name="neutralCharge" value="0" editable="false"/>
-                <property name="Neutrals Are Impassable" value="false" editable="false">
+                <property name="Soviet_Russia Are Impassable" value="false" editable="false">
                         <boolean/>
                 </property>
-                <property name="Neutrals Are Blitzable" value="true" editable="false">
+                <property name="Soviet_Russia Are Blitzable" value="true" editable="false">
                         <boolean/>
                 </property>
 				<property name="Use Triggers" value="true" editable="true">
