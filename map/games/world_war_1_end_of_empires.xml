@@ -647,6 +647,23 @@
                         <cost resource="PUs" quantity="120"/>
                         <result resourceOrUnit="destroyer" quantity="1"/>
                 </productionRule>
+				
+				<repairRule name="repairFactory">
+						<cost resource="PUs" quantity="10"/>
+						<result resourceOrUnit="factory" quantity="1"/>
+				</repairRule>
+				<repairFrontier name="repair">
+					<repairRules name="repairFactory"/>
+				</repairFrontier>
+				<playerRepair player="Germany" frontier="repair"/>
+				<playerRepair player="France" frontier="repair"/>
+				<playerRepair player="Austria-Hungary" frontier="repair"/>
+				<playerRepair player="Ottoman_Empire" frontier="repair"/>
+				<playerRepair player="Russia" frontier="repair"/>
+				<playerRepair player="Britain" frontier="repair"/>
+				<playerRepair player="Italy" frontier="repair"/>
+				<playerRepair player="United_States" frontier="repair"/>
+				
                 <productionFrontier name="GermanyFrontier">
 						<frontierRules name="buyaaGun"/>
                         <frontierRules name="buyarmour"/>
@@ -813,7 +830,6 @@
                          <option name="transportCapacity" value="2"/>
 						 <option name="createsResourcesList" value="-1:PUs"/>
 						 <option name="fuelCost" value="PUs" count="2"/>
-						 <option name='bombingMaxDieSides' value="60"/>
                     </attachment>
                     <!-- <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="2"/>
@@ -2070,9 +2086,6 @@
 						<boolean/>
 				</property>
 				<property name="Use Fuel Cost" value="false" editable="true">
-					<boolean/>
-				</property>
-				<property name="Use Bombing Max Dice Sides And Bonus" value="true" editable="true">
 					<boolean/>
 				</property>
 				<property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="true">
