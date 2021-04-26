@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-        <info name="World War 1 End of Empires" version="1"/>
+        <info name="World War I End of Empires" version="1"/>
         <loader javaClass="games.strategy.triplea.TripleA"/>
         <map>
                 <!-- Territory Definitions -->
@@ -2117,12 +2117,12 @@
 				<property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="true">
 					<boolean/>
 				</property>
-                <property name="mapName" value="world_war_1_end_of_empires" editable="false"/>
+                <property name="mapName" value="world_war_i_end_of_empires" editable="false"/>
 				<property name="notes">
                         <value>
 <![CDATA[
 
-World War 1 End of Empires<br>
+World War I End of Empires<br>
 <br>
 It is April 6th, 1917. The United States has just entered World War 1 on the side of the Entente.<br>
 German U-Boats prowl the ocean, sinking convoys carrying supplies for Britain and the United States.<br>
