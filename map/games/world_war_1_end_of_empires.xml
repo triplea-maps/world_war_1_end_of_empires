@@ -2117,7 +2117,7 @@
 				<property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="true">
 					<boolean/>
 				</property>
-                <property name="mapName" value="world_war_i_end_of_empires" editable="false"/>
+                <property name="mapName" value="world_war_1_end_of_empires" editable="false"/>
 				<property name="notes">
                         <value>
 <![CDATA[
